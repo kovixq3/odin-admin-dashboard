@@ -6,14 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo"></div>
-        <div class="nav"></div>
-        <div></div>
+        <div class="logo bigger">
+            Dashboard
+        </div>
+        <ul class="nav-top">
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+        </ul>
+        <ul class="nav--bottom">
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+        </ul>
     </div>
-    <div class="header"></div>
-    <div class="main"></div>
+    <div class="header shadow">
+        <div class="header--top">
+            <span class="material-icons">search</span>
+            <input type="search" name="search" id="search">
+            <span class="material-icons push">notifications</span>
+            <span>ava</span>
+            <span>Morgan Oakley</span>
+        </div>
+        <div class="header--bottom">
+            <div class="header--bottom__greetings">
+                <span class="avatar">ava</span>
+                <span class="smaller">Hi there,</span>
+                <span class="bigger">Oakley(@morgan)</span>
+            </div>
+            <button class="push">New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main--projects">
+            Your Projects
+            <div class="shadow main--projects__item">
+                <span>title</span>
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum, perspiciatis illo aspernatur adipisci numquam veniam autem earum magni officia in asperiores obcaecati molestias dolorem repellat qui repudiandae dolore totam.</div>
+                <div class="main--projects__item--action">
+                    <div>favorite</div>
+                    <div>follow</div>
+                    <div>share</div>
+                </div>
+            </div>
+            <div class="shadow main--projects__item">
+                <span>title</span>
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum, perspiciatis illo aspernatur adipisci numquam veniam autem earum magni officia in asperiores obcaecati molestias dolorem repellat qui repudiandae dolore totam.</div>
+                <div class="main--projects__item--action">
+                    <div>favorite</div>
+                    <div>follow</div>
+                    <div>share</div>
+                </div>
+            </div>
+            <div class="shadow main--projects__item"></div>
+            <div class="shadow main--projects__item"></div>
+            <div class="shadow main--projects__item"></div>
+            <div class="shadow main--projects__item"></div>
+        </div>
+        <div class="main--announcement shadow">
+            Announcements
+        </div>
+        <div class="main--trending shadow">
+            Trending
+        </div>
+    </div>
 </body>
 </html>
